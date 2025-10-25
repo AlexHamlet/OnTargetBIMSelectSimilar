@@ -1,0 +1,13 @@
+﻿<Window x:Class="SelectSimilar.UI.AboutSelectSimilar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SelectSimilar.UI"
+        mc:Ignorable="d"
+        Icon="../Resources/BIMX.ico"
+        Title="Select Similar" Height="180" Width="387.5">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="There are three commands in this utility."/><LineBreak/><Run Text="Search for the following commands in Keyboard shortcuts:"/><LineBreak/><Run Text="Select Family in Project"/><LineBreak/><Run Text="Select Family in View"/><LineBreak/><Run Text="Select Instance"/></TextBlock>
+    </Grid>
+</Window>
