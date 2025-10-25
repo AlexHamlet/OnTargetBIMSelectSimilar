@@ -92,8 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs" />
-    <Compile Include="EntitlementResponse.cs" />
-    <Compile Include="Entitlements.cs" />
     <Compile Include="ParameterCheckBox.cs" />
     <Compile Include="SelectCategoriesInView.cs" />
     <Compile Include="SelectCategoriesInProject.cs" />

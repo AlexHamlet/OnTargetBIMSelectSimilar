@@ -18,12 +18,6 @@ namespace SelectSimilar
         {
             try
             {
-                if (!new Entitlements().Entitled(commandData, ref message, elements))
-                {
-                    MessageBox.Show("Please Purchase this software through the Autodesk App Store or Contact sales@ontargetbim.com", "Error");
-                    return Result.Failed;
-                }
-
                 uidoc = commandData.Application.ActiveUIDocument;
 
                 List<ElementId> elids = uidoc.Selection.GetElementIds().ToList();

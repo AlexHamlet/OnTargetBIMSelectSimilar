@@ -16,12 +16,6 @@ namespace SelectSimilar
         {
             try
             {
-                if (!new Entitlements().Entitled(commandData, ref message, elements))
-                {
-                    MessageBox.Show("Please Purchase this software through the Autodesk App Store or Contact sales@ontargetbim.com", "Error");
-                    return Result.Failed;
-                }
-
                 UIDocument uidoc = commandData.Application.ActiveUIDocument;
 
                 if (uidoc.Document.IsFamilyDocument)
